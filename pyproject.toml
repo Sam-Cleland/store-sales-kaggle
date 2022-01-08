@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "store-sales"
+version = "0.1.0"
+description = ""
+authors = ["Sam Cleland <sam.cleland@adscale.co.nz>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+scikit-learn = "^0.24.2"
+pandas = "^1.3.5"
+tqdm = "^4.62.3"
+lightgbm = "^3.3.1"
+jupyter-contrib-nbextensions = "^0.5.1"
+streamlit = "^1.3.1"
+scikit-plot = "^0.3.7"
+plotly = "^5.5.0"
+numpy = "^1.22.0"
+statsmodels = "^0.13.1"
+xgboost = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
